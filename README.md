@@ -23,8 +23,8 @@ Generates and inject [apidoc](http://apidoc.com) elements from api schemas.
 ```javascript
 /**
  * @api {get} /api GetAPI
- * @apiSchema (Body) {jsonschema=./schema/api.req.json} apiParam
- * @apiSchema {jsonschema=./schema/api.res.json} apiSuccess
+ * @apiSchema (Body) {jsonschema=./schema/api.req.json} {base_path=xx} apiParam
+ * @apiSchema {jsonschema=./schema/api.res.json} {base_path=xx} apiSuccess
  */
 ```
 
