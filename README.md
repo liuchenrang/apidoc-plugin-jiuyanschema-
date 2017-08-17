@@ -2,7 +2,7 @@
 
 Generates and inject [apidoc](http://apidoc.com) elements from api schemas.
 
-`@apiSchema [(group)] {SCHEMA_TYPE=PATH_TO_SCHEMA} ELEMENT_TYPE`
+`@apiSchema [(group)] {SCHEMA_TYPE=PATH_TO_SCHEMA} {base_path=xx} ELEMENT_TYPE`
 
 ## Install
 `npm install apidoc-plugin-schema --save-dev`
